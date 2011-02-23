@@ -1,4 +1,8 @@
 body { background: #b1b094; }
 
 #pageflip { position: relative; width: 975px; height: 700px; }
-.page { position: absolute; left: 325px; top: 0; height: 700px; }
+#pageflip .page { position: absolute; left: 325px; top: 0; height: 700px; }
+#pageflip .arrow-left,
+#pageflip .arrow-right { position: absolute; display: block; width: 74px; height: 52px; top: 324px; }
+#pageflip .arrow-left { background: url(../gfx/page-left.gif); left: 100px; }
+#pageflip .arrow-right { background: url(../gfx/page-right.gif); right: 100px; }
