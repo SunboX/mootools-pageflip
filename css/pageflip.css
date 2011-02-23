@@ -1,0 +1,4 @@
+body { background: #b1b094; }
+
+#pageflip { position: relative; width: 975px; height: 700px; }
+.page { position: absolute; left: 325px; top: 0; height: 700px; }
